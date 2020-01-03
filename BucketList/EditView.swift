@@ -27,7 +27,7 @@ struct EditView: View {
                     TextField("Description", text: $placemark.wrappedSubtitle)
                 }
                 Section(header: Text("Nearby...")) {
-                    if loadingState == .loading {
+                    if loadingState == .loaded {
                         List(pages, id: \.pageid) { page in
                             Text(page.title)
                                 .font(.headline)
