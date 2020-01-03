@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2219180323BF27CC00FEE8B3 /* CodableMKPointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2219180223BF27CC00FEE8B3 /* CodableMKPointAnnotation.swift */; };
 		224DB52623BB12CA00D7CCFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224DB52523BB12CA00D7CCFF /* AppDelegate.swift */; };
 		224DB52823BB12CA00D7CCFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224DB52723BB12CA00D7CCFF /* SceneDelegate.swift */; };
 		224DB52A23BB12CA00D7CCFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224DB52923BB12CA00D7CCFF /* ContentView.swift */; };
 		224DB52C23BB12CF00D7CCFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 224DB52B23BB12CF00D7CCFF /* Assets.xcassets */; };
 		224DB52F23BB12CF00D7CCFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 224DB52E23BB12CF00D7CCFF /* Preview Assets.xcassets */; };
 		224DB53223BB12CF00D7CCFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 224DB53023BB12CF00D7CCFF /* LaunchScreen.storyboard */; };
+		224DB53A23BB12E100D7CCFF /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224DB53923BB12E100D7CCFF /* MapView.swift */; };
+		224DB53C23BBCEB800D7CCFF /* MKPointAnnotation-Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224DB53B23BBCEB800D7CCFF /* MKPointAnnotation-Codable.swift */; };
+		224DB53E23BBD26900D7CCFF /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224DB53D23BBD26900D7CCFF /* EditView.swift */; };
+		224DB54023BBDABA00D7CCFF /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224DB53F23BBDABA00D7CCFF /* Result.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2219180223BF27CC00FEE8B3 /* CodableMKPointAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableMKPointAnnotation.swift; sourceTree = "<group>"; };
 		224DB52223BB12CA00D7CCFF /* BucketList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BucketList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		224DB52523BB12CA00D7CCFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		224DB52723BB12CA00D7CCFF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		224DB52923BB12CA00D7CCFF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		224DB52923BB12CA00D7CCFF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "/Users/sam/Library/Mobile Documents/com~apple~CloudDocs/Documents/XCode Workspace/BucketList/BucketList/ContentView.swift"; sourceTree = "<absolute>"; };
 		224DB52B23BB12CF00D7CCFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		224DB52E23BB12CF00D7CCFF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		224DB53123BB12CF00D7CCFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		224DB53323BB12CF00D7CCFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		224DB53923BB12E100D7CCFF /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		224DB53B23BBCEB800D7CCFF /* MKPointAnnotation-Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKPointAnnotation-Codable.swift"; sourceTree = "<group>"; };
+		224DB53D23BBD26900D7CCFF /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		224DB53F23BBDABA00D7CCFF /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,11 @@
 				224DB52523BB12CA00D7CCFF /* AppDelegate.swift */,
 				224DB52723BB12CA00D7CCFF /* SceneDelegate.swift */,
 				224DB52923BB12CA00D7CCFF /* ContentView.swift */,
+				224DB53F23BBDABA00D7CCFF /* Result.swift */,
+				224DB53B23BBCEB800D7CCFF /* MKPointAnnotation-Codable.swift */,
+				2219180223BF27CC00FEE8B3 /* CodableMKPointAnnotation.swift */,
+				224DB53D23BBD26900D7CCFF /* EditView.swift */,
+				224DB53923BB12E100D7CCFF /* MapView.swift */,
 				224DB52B23BB12CF00D7CCFF /* Assets.xcassets */,
 				224DB53023BB12CF00D7CCFF /* LaunchScreen.storyboard */,
 				224DB53323BB12CF00D7CCFF /* Info.plist */,
@@ -146,8 +161,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2219180323BF27CC00FEE8B3 /* CodableMKPointAnnotation.swift in Sources */,
 				224DB52623BB12CA00D7CCFF /* AppDelegate.swift in Sources */,
+				224DB53A23BB12E100D7CCFF /* MapView.swift in Sources */,
+				224DB53E23BBD26900D7CCFF /* EditView.swift in Sources */,
 				224DB52823BB12CA00D7CCFF /* SceneDelegate.swift in Sources */,
+				224DB54023BBDABA00D7CCFF /* Result.swift in Sources */,
+				224DB53C23BBCEB800D7CCFF /* MKPointAnnotation-Codable.swift in Sources */,
 				224DB52A23BB12CA00D7CCFF /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
