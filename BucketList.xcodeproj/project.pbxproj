@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2219180323BF27CC00FEE8B3 /* CodableMKPointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2219180223BF27CC00FEE8B3 /* CodableMKPointAnnotation.swift */; };
+		2219180523BF2AE400FEE8B3 /* ContentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2219180423BF2AE400FEE8B3 /* ContentDetailView.swift */; };
 		224DB52623BB12CA00D7CCFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224DB52523BB12CA00D7CCFF /* AppDelegate.swift */; };
 		224DB52823BB12CA00D7CCFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224DB52723BB12CA00D7CCFF /* SceneDelegate.swift */; };
 		224DB52A23BB12CA00D7CCFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224DB52923BB12CA00D7CCFF /* ContentView.swift */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		2219180223BF27CC00FEE8B3 /* CodableMKPointAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableMKPointAnnotation.swift; sourceTree = "<group>"; };
+		2219180423BF2AE400FEE8B3 /* ContentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDetailView.swift; sourceTree = "<group>"; };
 		224DB52223BB12CA00D7CCFF /* BucketList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BucketList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		224DB52523BB12CA00D7CCFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		224DB52723BB12CA00D7CCFF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				224DB52523BB12CA00D7CCFF /* AppDelegate.swift */,
 				224DB52723BB12CA00D7CCFF /* SceneDelegate.swift */,
 				224DB52923BB12CA00D7CCFF /* ContentView.swift */,
+				2219180423BF2AE400FEE8B3 /* ContentDetailView.swift */,
 				224DB53F23BBDABA00D7CCFF /* Result.swift */,
 				224DB53B23BBCEB800D7CCFF /* MKPointAnnotation-Codable.swift */,
 				2219180223BF27CC00FEE8B3 /* CodableMKPointAnnotation.swift */,
@@ -165,6 +168,7 @@
 				224DB52623BB12CA00D7CCFF /* AppDelegate.swift in Sources */,
 				224DB53A23BB12E100D7CCFF /* MapView.swift in Sources */,
 				224DB53E23BBD26900D7CCFF /* EditView.swift in Sources */,
+				2219180523BF2AE400FEE8B3 /* ContentDetailView.swift in Sources */,
 				224DB52823BB12CA00D7CCFF /* SceneDelegate.swift in Sources */,
 				224DB54023BBDABA00D7CCFF /* Result.swift in Sources */,
 				224DB53C23BBCEB800D7CCFF /* MKPointAnnotation-Codable.swift in Sources */,
